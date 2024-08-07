@@ -85,31 +85,49 @@ table {
 #skip:focus{
     transform: translateY(0%);
   }
-/*
+
 header{
+    background-image: linear-gradient(var(--teal), var(--white));
 
 }
-*/
+header p{
+    font-size: 1.5em;
+}
 nav{
     font-family: "Montserrat", sans-serif, helvetica;
 }
+nav a{
+    text-decoration: none;
+    color: var(--black);
+}
 h1{
     font-family: "Molle", cursive, sans-serif;
+    font-size: 4em;
+    margin-left: 30px;
 }
 h2{
     font-family: "Molle", cursive, sans-serif;
+    font-size: 3em;
+    margin-left: 30px;
 }
 h3{
     font-family: "Molle", cursive, sans-serif;
+    font-size: 2.5em;
+    margin-left: 30px;
 }
 h4{
     font-family: "Montserrat", sans-serif, helvetica;
+    font-size: 1.5em;
+    margin-left: 30px;
 }
 p{
     font-family: "Montserrat", sans-serif, helvetica;
+    margin-left: 30px;
+    line-height: 1.6;
 }
 q{
     font-family: "Montserrat", sans-serif, helvetica;
+    margin-left: 30px;
 }
 small{
     font-family: "Montserrat", sans-serif, helvetica;
@@ -119,4 +137,76 @@ button{
 }
 form{
     font-family: "Montserrat", sans-serif, helvetica;
+}
+#img-grid{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#img-grid img{
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#plan{
+    background-color: var(--yellow);
+}
+#plan h3{
+    padding-top: 15px;
+}
+#plan div{
+    padding: 10px;
+}
+#plan section{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--teal);
+    border: 7.5px solid var(--white);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+#plan img{
+    display: grid;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+}
+#plan h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#testimonials{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#about{
+    background-color: var(--blue);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#about h3{
+    padding-top: 15px;
+}
+#about h4{
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#about p{
+    text-align: center;
+}
+#about div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 50px;
+}
+#about section{
+    display: grid;
+    align-items: center;
+    margin-bottom:15px;
 }
